@@ -1,0 +1,16 @@
+/*estilo para nosotros*/
+
+.historia p { text-align: center;}
+    
+    .historia img { width: 60%;
+    margin-left: 300px;}
+    
+
+@media (max-width: 490px) { 
+
+.historia p { font-size: 10px;
+color: darkblue;}
+
+.historia img { visibility: hidden;}
+
+}

@@ -1,0 +1,31 @@
+@import "../base/variables";
+
+/*estilos para el nav y header*/
+
+header{
+    nav{
+        ul{
+            li{ padding: 10px; 
+                font-size: 30px;
+            
+                  
+
+            }
+        }
+    }
+}
+.nav-item {font-size: 25px; }
+.principal { 
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-size: $font-principal;
+    color: royalblue;}
+
+.principal img { width: 50%;
+    margin-right: 15px;}
+
+.logo1 { height: 100%;
+margin: 30px;
+padding-left: 10px;
+padding-right: 10px;}
+
