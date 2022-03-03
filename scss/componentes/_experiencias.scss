@@ -1,3 +1,6 @@
+@import "../base/maps";
+
+
 /*estilos para experiencia*/
 
 .experiencia1 img {width: 30%;}
@@ -7,12 +10,12 @@
 color: red;
 margin-top: 100px;}
 
-.experiencia2 { font-size: 20px;
-color:black;
+.experiencia2 { font-size: map-get($map: $experiencias, $key:font-exp );
+color:map-get($map: $experiencias, $key:color-exp );
 margin-bottom: 100px;}
 
 .experiencias-1 { margin-top: 150px;
-margin-bottom: 150px;}
+margin-bottom: map-get($map: $experiencias, $key:margin-exp);}
 
 @media (max-width: 490px) { 
     .parent1 {
