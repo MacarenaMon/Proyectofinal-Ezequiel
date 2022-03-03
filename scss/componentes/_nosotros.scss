@@ -1,3 +1,6 @@
+@import "../base/mixin";
+
+
 /*estilo para nosotros*/
 
 .historia p { text-align: center;}
@@ -8,8 +11,7 @@
 
 @media (max-width: 490px) { 
 
-.historia p { font-size: 10px;
-color: darkblue;}
+.historia p {@include real(10px, darkblue);}
 
 .historia img { visibility: hidden;}
 
