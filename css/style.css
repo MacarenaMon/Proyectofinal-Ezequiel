@@ -13,7 +13,7 @@ header nav ul li {
   margin-top: 150px;
   margin-bottom: 150px;
   font-size: 20px;
-  color: royalblue;
+  color:white;
 }
 
 .principal img {
@@ -57,13 +57,13 @@ header nav ul li {
 
 .experiencia1 {
   font-size: 20px;
-  color: red;
+  color:white;
   margin-top: 100px;
 }
 
 .experiencia2 {
   font-size: 20px;
-  color: black;
+  color:white;
   margin-bottom: 100px;
 }
 
@@ -135,7 +135,7 @@ iframe {
 @media (max-width: 490px) {
   .historia p {
     font-size: 10px;
-    color: darkblue;
+    color:white;
   }
 
   .historia img {
@@ -180,7 +180,7 @@ iframe {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  color: mediumblue;
+  color:white;
   font-size: medium;
 }
 
@@ -218,7 +218,7 @@ iframe {
 }
 /*variables*/
 body {
-  background-color: #f0ecec;
+  background-color:cadetblue;
 }
 
 /*# sourceMappingURL=style.css.map */
