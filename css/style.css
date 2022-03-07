@@ -13,7 +13,7 @@ header nav ul li {
   margin-top: 150px;
   margin-bottom: 150px;
   font-size: 20px;
-  color:white;
+  color: royalblue;
 }
 
 .principal img {
@@ -41,6 +41,24 @@ header nav ul li {
   color: black;
 }
 
+form {
+  width: 400px;
+  background-color: black;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+input, p {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+}
+
 /*estilo para excursiones*/
 .excursiones img {
   width: 24%;
@@ -57,13 +75,13 @@ header nav ul li {
 
 .experiencia1 {
   font-size: 20px;
-  color:white;
+  color: red;
   margin-top: 100px;
 }
 
 .experiencia2 {
   font-size: 20px;
-  color:white;
+  color: black;
   margin-bottom: 100px;
 }
 
@@ -135,7 +153,7 @@ iframe {
 @media (max-width: 490px) {
   .historia p {
     font-size: 10px;
-    color:white;
+    color: darkblue;
   }
 
   .historia img {
@@ -180,7 +198,7 @@ iframe {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  color:white;
+  color: mediumblue;
   font-size: medium;
 }
 
@@ -218,7 +236,7 @@ iframe {
 }
 /*variables*/
 body {
-  background-color:cadetblue;
+  background-color: #f0ecec;
 }
 
 /*# sourceMappingURL=style.css.map */
