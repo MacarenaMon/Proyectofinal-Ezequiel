@@ -124,20 +124,11 @@ iframe {
   width: 50px;
 }
 
-.transicion {
+footer .transicion {
   transition: all 2s;
 }
-
-.transicion:hover {
+footer .transicion:hover {
   transform: scale(4);
-}
-
-.transicion-1 {
-  transition: all 2s;
-}
-
-.transicion-1:hover {
-  transform: scale(2);
 }
 
 /*estilo para nosotros*/
@@ -168,38 +159,29 @@ iframe {
   margin-top: 150px;
   margin-bottom: 150px;
 }
-
-.div1 {
+.parent .div1 {
   grid-area: 1/1/2/2;
-  /*border: black solid 5px;*/
 }
-
-.div2 {
+.parent .div2 {
   grid-area: 1/2/2/3;
-  /*border: yellow solid 5px;*/
 }
-
-.div3 {
+.parent .div3 {
   grid-area: 1/3/2/4;
-  /*border: green solid 5px; */
 }
-
-.div4 {
+.parent .div4 {
   grid-area: 1/4/2/5;
-  /*border: brown solid 5px; */
 }
-
-.lugares img {
-  width: 99%;
-  height: 75%;
-}
-
-.viajes-1 {
+.parent .viajes-1 {
   display: flex;
   justify-content: center;
   margin-top: 20px;
   color: mediumblue;
   font-size: medium;
+}
+
+.lugares img {
+  width: 99%;
+  height: 75%;
 }
 
 @media (max-width: 490px) {
@@ -236,7 +218,7 @@ iframe {
 }
 /*variables*/
 body {
-  background-color: #f0ecec;
+  background-color: cadetblue;
 }
 
 /*# sourceMappingURL=style.css.map */

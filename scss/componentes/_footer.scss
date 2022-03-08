@@ -4,17 +4,26 @@
 /*Estilos de footer*/
 
 
- iframe { height: 200px;
+iframe { height: 200px;
 width: 200px; }
 
 .redes img { height: 50px;
 width: 50px;}
 
-footer {@extend %ordenar;
+// footer {@extend %ordenar;
+// }
+// .transicion { transition: all 2s;}
+
+// .transicion:hover {  transform: scale(4) ;}
+
+// .transicion-1 { transition: all 2s;}
+// .transicion-1:hover {transform: scale(2);}
+
+
+footer { @extend %ordenar;
+    .transicion{ transition: all 2s;
+        &:hover { transform: scale(4);
+
+        }
+    }
 }
-.transicion { transition: all 2s;}
-
-.transicion:hover {  transform: scale(4) ;}
-
-.transicion-1 { transition: all 2s;}
-.transicion-1:hover {transform: scale(2);}
