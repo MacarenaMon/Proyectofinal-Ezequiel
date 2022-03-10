@@ -1,4 +1,5 @@
 @import "../base/maps";
+@import "../base/extends";
 
 
 /*estilos para experiencia*/
@@ -7,7 +8,7 @@
 .experiencia2 img {width: 30%;}
 
 .experiencia1 { font-size: 20px;
-color: red;
+color: white;
 margin-top: 100px;}
 
 .experiencia2 { font-size: map-get($map: $experiencias, $key:font-exp );
