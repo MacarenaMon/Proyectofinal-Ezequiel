@@ -10,6 +10,12 @@ color: white;}
     margin-left: 300px;}
     
 
+.encabezado {
+        color: white;
+        margin-bottom: 40px;
+    }
+
+
 @media (max-width: 490px) { 
 
 .historia p {@include real(10px, white);}
@@ -17,3 +23,4 @@ color: white;}
 .historia img { visibility: hidden;}
 
 }
+

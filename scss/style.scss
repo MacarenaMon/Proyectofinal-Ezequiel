@@ -7,5 +7,10 @@
 @import "../scss/componentes/viajes";
 @import "../scss/base/variables";
 
-body { background-color: $bgcolor-body;}
 
+
+body {
+    background-image: url("../archivos/multimedia/!!!.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
