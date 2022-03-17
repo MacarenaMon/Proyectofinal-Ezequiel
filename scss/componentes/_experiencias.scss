@@ -4,16 +4,25 @@
 
 /*estilos para experiencia*/
 
-.experiencia1 img {width: 30%;}
-.experiencia2 img {width: 30%;}
+
 
 .experiencia1 { font-size: 20px;
 color: white;
-margin-top: 100px;}
+margin-top: 100px;
+    img{
+        width: 30%;
+    }
+
+}
 
 .experiencia2 { font-size: map-get($map: $experiencias, $key:font-exp );
 color:map-get($map: $experiencias, $key:color-exp );
-margin-bottom: 100px;}
+margin-bottom: 100px;
+    img{
+        width: 30%;
+    }
+
+}
 
 .experiencias-1 { margin-top: 150px;
 margin-bottom: map-get($map: $experiencias, $key:margin-exp);}

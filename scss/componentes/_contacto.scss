@@ -18,13 +18,16 @@ form {
        margin-top: 100px;
        border-radius: 4px;
        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+       input, p {width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;}
+
    }
 
-   input, p {width: 100%;
-margin-top: 20px;
-margin-bottom: 20px;
-padding: 7px;
-box-sizing: border-box;}
+   
 
 
 .encabezado {
