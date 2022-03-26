@@ -25,7 +25,9 @@ margin-bottom: 100px;
 }
 
 .experiencias-1 { margin-top: 150px;
-margin-bottom: map-get($map: $experiencias, $key:margin-exp);}
+margin-bottom: map-get($map: $experiencias, $key:margin-exp);
+box-sizing: border-box;
+padding: 30px 100px 30px 100px;}
 
 @media (max-width: 490px) { 
     .parent1 {
@@ -45,3 +47,10 @@ margin-bottom: map-get($map: $experiencias, $key:margin-exp);}
     color: white;
     margin-top: 40px;
 }
+
+.exp-1{
+    background-color: rgba($color: black, $alpha: 0.6);
+    font-size: 20px;
+    margin-top: 10px;
+}
+

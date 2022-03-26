@@ -5,11 +5,10 @@
 
 
 footer { @extend %ordenar;
+    iframe { height: 200px;
+        width: 200px; }
     .transicion{ transition: all 2s;
         &:hover { transform: scale(4);}
-
-            iframe { height: 200px;
-                width: 200px; }
             img { height: 50px;
                 width: 50px;}
             
