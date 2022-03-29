@@ -1,32 +1,31 @@
 @import "../base/mixin";
 
 
-/*estilo para nosotros*/
-
-.historia p { text-align: center; 
-color: white;}
-    
-    .historia img { width: 60%;
-    margin-left: 300px;}
-    
+/*estilo para nosotros*/    
 
 .encabezado {
         color: white;
         margin-bottom: 40px;
     }
 
-
-@media (max-width: 490px) { 
-
-.historia p {@include real(10px, white);}
-
-.historia img { visibility: hidden;}
-
-}
-
 .nos-1{
     background-color: rgba($color: black, $alpha: 0.6);
     font-size: 20px;
     margin-top: 15px;
     margin-bottom: 40px;
+    color: white;
+    }
+
+.historia1 { display: flex;
+justify-content: center;
 }
+
+.historia-1 { width: 600px;}
+
+@media (max-width: 470px) { 
+    .historia-1 { width: 400px;}
+}
+
+
+
+

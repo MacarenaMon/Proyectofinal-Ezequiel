@@ -1,16 +1,19 @@
 /*estilo para excursiones*/
 
-.excursiones img {width: 20%;}
 
 .encabezado {
     color: white;
     margin-top: 40px;
 }
 
-.exc{padding: 50px;}
-
 .exc-3{ color: white;
     background-color: rgba($color: black, $alpha: 0.6);
     font-size: 20px;
     margin-bottom: 40px;
+}
+
+.exc-1 { padding: 80px;}
+
+@media (max-width: 470px) {
+    .exc-1 { padding: 20px;}
 }
