@@ -15,10 +15,23 @@
     color:white;
     margin-top: 40px;}
 
+<<<<<<< HEAD
     .lugares{
         color: white;
         background-color: rgba($color: black, $alpha: 0.6);
     }
+=======
+            .div3{grid-area: 1 / 3 / 2 / 4;}
+
+                .div4{grid-area: 1 / 4 / 2 / 5;}
+                          
+    .viajes-1 {display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            color: white;
+            font-size: medium;}
+}
+>>>>>>> 7258a9e9381caef974e9f7e42928ab60989e9c8e
 
 
 .lu-vi { width: 99%;
